@@ -1,0 +1,5 @@
+Class NomedaClase {
+    constuctor(parâmetros) {
+        
+    }
+}
