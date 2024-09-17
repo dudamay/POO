@@ -34,10 +34,3 @@ class Carro {
     return idade;
   }
 }
-
-// Exemplo de uso da classe Carro
-const meuCarro = new Carro('Toyota', 'Corolla', 2018, 'preto', 50000);
-
-meuCarro.exibirInformacoes();
-meuCarro.atualizarQuilometragem(52000);
-console.log(`Idade do carro: ${meuCarro.calcularIdade()} anos`); 
