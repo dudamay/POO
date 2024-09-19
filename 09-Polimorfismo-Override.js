@@ -53,3 +53,16 @@ class Mago extends Personagem{
 
         }
     }
+
+    // Criando instãncias de Guerreiro, Mago e Arqueiro
+    const guerreiro = new Guerreiro("Thor", 100, "Espada");
+    guerreiro.atacar(); // Saída: Thor ataca com a espada!
+    guerreiro.receberDano(20); // Saída: Thor recebeu 20 de dano. Vida restante: 80
+
+    const mago = new Mago("Loki", 80, "bola de Fogo");
+    mago.atacar(); // Saída: Loki lança bola de Fogo!
+    mago.receberDano(15); // Saída: Loki recebeu 15 de dano. Vida restante: 65
+
+    const arqueiro = new Arqueiro("Hulk", 90, "explosiva");
+    arqueiro.atacar(); // Saída: Hulk dispara flecha explosiva!
+    arqueiro.receberDano(10); // Saída: Hulk recebeu 10 de dano. Vida restante: 80
