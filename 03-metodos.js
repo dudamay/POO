@@ -7,6 +7,6 @@ class Pessoas{
     }
     //Métodos
     falar(){
-        console.log(Olá, meu nome é ${this.none});
+        console.log(`Olá, meu nome é ${this.none}`);
     }
 }

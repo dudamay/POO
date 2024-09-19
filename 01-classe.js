@@ -1,4 +1,4 @@
-Class NomedaClase {
+class NomedaClase {
     constuctor(parâmetros) {
         
     }
