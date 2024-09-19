@@ -40,3 +40,16 @@ class Mago extends Personagem{
 
     }
 }
+
+// Classe Arqueiro que herda de Persoangem 
+     class Arqueiro extends Personagem{
+        constructor(nome,vida,tipoFlecha){
+            super(nome, vida);
+            this.tipoFlecha = tipoFlecha;
+        }
+
+        atacar(){
+            console.log(`${this.nome} dispara flecha ${this.tipoFlecha}!`);
+
+        }
+    }
