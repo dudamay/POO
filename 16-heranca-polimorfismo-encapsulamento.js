@@ -126,4 +126,24 @@ class Mecanico extends Personagem {
 }
 
 
+// Criando instância da classe derivada Assasino
+const assasino = new Assasino("Luna Sombria",10,100,50,8);
+// Chamando os métodos
+assasino.atacar(); // Método sobrecrito
+assasino.usarFurtividade(); // Método específico
+
+// Criando instância da classe derivada Paladino
+const paladino = new Paladino("Sir Lancelot",15,80,100,15);
+
+// Chamando os métodos
+paladino.defesa(); // Método sobrecrito
+paladino.curar(); // Método específico
+
+// Criando instância da classe derivada Mecanico
+const mecanico = new Mecanico("Roberto das Endrenagens",8,90,40,5);
+
+// Chamando os métodos
+mecanico.receberDano(30); // Método sobescrito
+ mecanico.construirTorre(); // Método específico
+
 
